@@ -9,9 +9,9 @@ uses
 
 type
 
-  { TDMMain }
+  { TdmMain }
 
-  TDMMain = class(TDataModule)
+  TdmMain = class(TDataModule)
     Datasource1: TDatasource;
     ZConnection1: TZConnection;
     ZQuery1: TZQuery;
@@ -24,15 +24,15 @@ type
   end;
 
 var
-  DMMain: TDMMain;
+  dmMain: TdmMain;
 
 implementation
 
 {$R *.lfm}
 
-{ TDMMain }
+{ TdmMain }
 
-procedure TDMMain.ZConnection1AfterConnect(Sender: TObject);
+procedure TdmMain.ZConnection1AfterConnect(Sender: TObject);
 begin
 
 end;

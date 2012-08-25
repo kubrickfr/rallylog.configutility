@@ -17,7 +17,6 @@ type
 
   TfrmMain = class(TForm)
     Chart1: TChart;
-    DBGrid1: TDBGrid;
     EditButton1: TEditButton;
     GroupBox1: TGroupBox;
     GroupBox2: TGroupBox;
@@ -39,10 +38,8 @@ type
     menuHelp: TMenuItem;
     menuHelpAbout: TMenuItem;
     menuAutoSetTime: TMenuItem;
-    Panel2: TPanel;
     Panel3: TPanel;
     serialPort: TSdpoSerial;
-    Splitter1: TSplitter;
     StatusBar1: TStatusBar;
     Timer1: TTimer;
     ToolBar1: TToolBar;

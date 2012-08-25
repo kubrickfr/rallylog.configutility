@@ -81,7 +81,7 @@
         <PackageName Value="LCL"/>
       </Item5>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="rallylog.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -98,7 +98,7 @@
       <Unit2>
         <Filename Value="units\datamodule.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="DMMain"/>
+        <ComponentName Value="dmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="datamodule"/>
@@ -113,6 +113,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="ConnectedDevice"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="units\ftd2xx\ftd2xxdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ftd2xxdevice"/>
+      </Unit5>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -123,10 +128,15 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <Libraries Value="db;lib"/>
-      <OtherUnitFiles Value="units;..\lazarus\components\luipack\multilog"/>
+      <Libraries Value="db;lib\$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="units;..\lazarus\components\luipack\multilog;units\ftd2xx"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\DEBUG"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <StaticKeyword Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
     <Linking>
       <Debugging>
         <UseHeaptrc Value="True"/>

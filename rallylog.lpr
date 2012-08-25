@@ -8,8 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, zcomponent, sdposeriallaz, tachartlazaruspkg, mainform, datamodule,
-  clockUtility
-  { you can add units after this };
+  clockUtility, ftd2xxdevice;
 
 {$R *.res}
 
@@ -18,7 +17,7 @@ begin
   RequireDerivedFormResource := True;
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
-  Application.CreateForm(TDMMain, DMMain);
+  Application.CreateForm(TdmMain, dmMain);
   Application.Run;
 end.
 

@@ -2,60 +2,37 @@ object frmMain: TfrmMain
   Left = 208
   Height = 489
   Top = 192
-  Width = 618
+  Width = 421
   ActiveControl = EditButton1
   BorderStyle = bsSingle
   Caption = 'RallyLog Configuration Utility'
   ClientHeight = 469
-  ClientWidth = 618
+  ClientWidth = 421
   Menu = MainMenu
   OnActivate = FormActivate
   OnClose = FormClose
   OnCreate = FormCreate
   OnShow = FormShow
   LCLVersion = '1.1'
-  object Panel2: TPanel
-    Left = 0
-    Height = 420
-    Top = 26
-    Width = 170
-    Align = alLeft
-    BevelOuter = bvNone
-    Caption = 'Panel2'
-    ClientHeight = 420
-    ClientWidth = 170
-    TabOrder = 0
-    object DBGrid1: TDBGrid
-      Left = 0
-      Height = 420
-      Top = 0
-      Width = 170
-      Align = alClient
-      Color = clWindow
-      Columns = <>
-      DataSource = DMMain.Datasource1
-      TabOrder = 0
-    end
-  end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
     Top = 446
-    Width = 618
+    Width = 421
     Panels = <    
       item
         Text = 'ID: **'
-        Width = 100
+        Width = 70
       end    
       item
         Alignment = taCenter
         Text = 'Serial #: 123456'
-        Width = 200
+        Width = 100
       end    
       item
         Alignment = taCenter
         Text = 'Battery OK'
-        Width = 200
+        Width = 100
       end    
       item
         Alignment = taRightJustify
@@ -64,23 +41,17 @@ object frmMain: TfrmMain
       end>
     SimplePanel = False
   end
-  object Splitter1: TSplitter
-    Left = 170
-    Height = 420
-    Top = 26
-    Width = 5
-  end
   object Panel3: TPanel
-    Left = 175
+    Left = 0
     Height = 420
     Hint = 'Set Device ID'
     Top = 26
-    Width = 443
+    Width = 421
     Align = alClient
     BevelOuter = bvNone
     ClientHeight = 420
-    ClientWidth = 443
-    TabOrder = 2
+    ClientWidth = 421
+    TabOrder = 1
     object Label1: TLabel
       Left = 78
       Height = 15
@@ -242,12 +213,12 @@ object frmMain: TfrmMain
     Left = 0
     Height = 26
     Top = 0
-    Width = 618
+    Width = 421
     Caption = 'ToolBar1'
     Images = ImageList1
     ParentShowHint = False
     ShowHint = True
-    TabOrder = 4
+    TabOrder = 2
     object ToolButton2: TToolButton
       Left = 24
       Top = 2
@@ -289,7 +260,7 @@ object frmMain: TfrmMain
   end
   object MainMenu: TMainMenu
     Images = ImageList1
-    left = 224
+    left = 56
     top = 392
     object menuFile: TMenuItem
       Caption = '&File'
@@ -359,7 +330,7 @@ object frmMain: TfrmMain
     end
   end
   object ImageList1: TImageList
-    left = 264
+    left = 104
     top = 392
     Bitmap = {
       4C69060000001000000010000000000000000000000000000000000000000000
@@ -565,12 +536,12 @@ object frmMain: TfrmMain
     FlowControl = fcNone
     StopBits = sbOne
     Device = 'COM1'
-    left = 325
+    left = 168
     top = 392
   end
   object Timer1: TTimer
     OnTimer = Timer1Timer
-    left = 400
+    left = 232
     top = 392
   end
 end

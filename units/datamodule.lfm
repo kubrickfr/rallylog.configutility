@@ -1,4 +1,4 @@
-object DMMain: TDMMain
+object dmMain: TdmMain
   OldCreateOrder = False
   Height = 150
   HorizontalOffset = 14
@@ -10,8 +10,6 @@ object DMMain: TDMMain
     Properties.Strings = (
       'PreprepareSQL='
     )
-    Connected = True
-    DesignConnection = True
     AfterConnect = ZConnection1AfterConnect
     Port = 0
     Database = 'Y:\1_projects\rallylog\db\Devices.db'
@@ -22,7 +20,6 @@ object DMMain: TDMMain
   end
   object ZTable1: TZTable
     Connection = ZConnection1
-    Active = True
     TableName = 'devices'
     left = 112
     top = 96
