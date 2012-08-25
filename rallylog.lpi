@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Rallylog Configuration Utility"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="bin\$(TargetCPU)-$(TargetOS)\RELEASE\rallylog"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="units;..\lazarus\components\luipack\multilog"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\RELEASE"/>
+          </SearchPaths>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="zcomponent"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SdpoSerialLaz"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="rallylog.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="rallylog"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="units\mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainform"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="units\datamodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DMMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="datamodule"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="units\clockutility.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="clockUtility"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="units\connecteddevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ConnectedDevice"/>
+      </Unit4>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="bin\$(TargetCPU)-$(TargetOS)\DEBUG\rallylog"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="db;lib"/>
+      <OtherUnitFiles Value="units;..\lazarus\components\luipack\multilog"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\DEBUG"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

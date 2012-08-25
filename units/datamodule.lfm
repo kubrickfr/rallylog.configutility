@@ -1,0 +1,45 @@
+object DMMain: TDMMain
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 14
+  VerticalOffset = 137
+  Width = 405
+  object ZConnection1: TZConnection
+    UTF8StringsAsWideField = False
+    PreprepareSQL = False
+    Properties.Strings = (
+      'PreprepareSQL='
+    )
+    Connected = True
+    DesignConnection = True
+    AfterConnect = ZConnection1AfterConnect
+    Port = 0
+    Database = 'Y:\1_projects\rallylog\db\Devices.db'
+    Protocol = 'sqlite-3'
+    LibraryLocation = 'Y:\1_projects\rallylog\db\sqlite3.dll'
+    left = 26
+    top = 36
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'devices'
+    left = 112
+    top = 96
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 200
+    top = 36
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'select * from devices;'
+    )
+    Params = <>
+    DataSource = Datasource1
+    left = 112
+    top = 36
+  end
+end
