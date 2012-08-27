@@ -5,9 +5,10 @@ unit mainform;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, TAGraph, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, ComCtrls, StdCtrls, DBGrids, EditBtn, Menus, Buttons,
-  SharedLogger, filechannel, SdpoSerial, FTChipID, ConnectedDevice;
+  Classes, SysUtils, FileUtil, TAGraph, TplLCDScreenUnit, TplLEDIndicatorUnit,
+  VpClock, VpLEDLabel, Forms, Controls, Graphics, Dialogs, ExtCtrls, ComCtrls,
+  StdCtrls, DBGrids, EditBtn, Menus, Buttons, SharedLogger, filechannel,
+  SdpoSerial, FTChipID, ConnectedDevice;
 
 type
 
@@ -26,8 +27,6 @@ type
     Label3: TLabel;
     lblSerialNumber: TLabel;
     lblBatteryStatus: TLabel;
-    lblSystemTime: TLabel;
-    lblDeviceTime: TLabel;
     Label8: TLabel;
     MainMenu: TMainMenu;
     menuFile: TMenuItem;
@@ -38,6 +37,8 @@ type
     menuHelp: TMenuItem;
     menuHelpAbout: TMenuItem;
     menuAutoSetTime: TMenuItem;
+    Panel1: TPanel;
+    Panel2: TPanel;
     Panel3: TPanel;
     serialPort: TSdpoSerial;
     StatusBar1: TStatusBar;
@@ -48,6 +49,8 @@ type
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
+    VpLEDLabel1: TVpLEDLabel;
+    VpLEDLabel2: TVpLEDLabel;
 
     procedure FormActivate(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
@@ -58,9 +61,11 @@ type
 
     procedure DeviceConnected(Sender: TObject);
     procedure DeviceDisconnected(Sender: TObject);
+    procedure Panel3Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
 
     procedure toolButtonExitClick(Sender: TObject);
+    procedure VpClock1Click(Sender: TObject);
   private
     { private declarations }
      ConnectedDevice: TConnectedDevice;
@@ -82,6 +87,11 @@ begin
     Close;
 end;
 
+procedure TfrmMain.VpClock1Click(Sender: TObject);
+begin
+
+end;
+
 procedure TfrmMain.menuLoggingEnabledClick(Sender: TObject);
 begin
     if (menuLoggingEnabled.Checked) then
@@ -97,6 +107,7 @@ begin
       Logger.Enabled := True
    else
       Logger.Enabled := False;
+
 
    ConnectedDevice := TConnectedDevice.Create(self);
    ConnectedDevice.onDeviceConnected:= @DeviceConnected;
@@ -157,9 +168,14 @@ begin
        lblSerialNumber.Caption:= vSerialNumber;
 end;
 
+procedure TfrmMain.Panel3Click(Sender: TObject);
+begin
+
+end;
+
 procedure TfrmMain.Timer1Timer(Sender: TObject);
 begin
-     lblSystemTime.Caption:=TimeToStr(time);
+     vpLedLabel1.Caption:=TimeToStr(time);
 end;
 
 

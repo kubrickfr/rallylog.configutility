@@ -12,10 +12,6 @@ type
   { TdmMain }
 
   TdmMain = class(TDataModule)
-    Datasource1: TDatasource;
-    ZConnection1: TZConnection;
-    ZQuery1: TZQuery;
-    ZTable1: TZTable;
     procedure ZConnection1AfterConnect(Sender: TObject);
   private
     { private declarations }

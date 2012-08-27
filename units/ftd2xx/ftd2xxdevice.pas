@@ -26,13 +26,15 @@ type
       fReadTimeout: Longint;
       fWriteTimeout: Longint;
 
-      fLocationID: Lonint;                 // devices location in the USB Tree
+      fLocationID: Longint;                 // devices location in the USB Tree
       //fDeviceType: DeviceType;
 
       const
         // default timeout values as specified by the ftd2xx API
        fDEFAULT_TX_TIMEOUT = 300;
        fDEFAULT_RX_TIMEOUT = 300;
+
+       function getDeviceDescriptor: TDeviceDescriptor;
 
  public
 
@@ -51,7 +53,7 @@ type
       property port: TPort read fPort write fPort;
       property readTimeout: Integer read fReadTimeout write fReadTimeout default fDEFAULT_RX_TIMEOUT;
       property writeTimeout: Integer read fWriteTimeout write fWriteTimeout default fDEFAULT_TX_TIMEOUT;
-      property deviceDescriptor: FDeviceDescriptor read getDeviceDescriptor();
+      property deviceDescriptor: TDeviceDescriptor read getDeviceDescriptor;
  end;
 
  TPort = Class(TComponent)
@@ -120,10 +122,8 @@ begin
 
 end;
 
-//****
-// Retrieves this devices descriptor
-//
-function TDevice.getDeviceDescriptor(): TDeviceDescriptor;
+
+function TDevice.getDeviceDescriptor: TDeviceDescriptor;
 begin
      result := fEEprom.getDeviceDescriptor();
 end;
@@ -188,9 +188,9 @@ begin
      inherited Destroy;
 end;
 
- function TEEprom.getDeviceDescriptor: TDeviceDescriptor
+ function TEEprom.getDeviceDescriptor: TDeviceDescriptor ;
 begin
-   //TODO
+   result := nil;
 end;
 
  {$EndRegion}

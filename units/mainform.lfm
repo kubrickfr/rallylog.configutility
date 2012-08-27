@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 208
+  Left = 450
   Height = 489
-  Top = 192
+  Top = 208
   Width = 421
   ActiveControl = EditButton1
   BorderStyle = bsSingle
@@ -52,6 +52,7 @@ object frmMain: TfrmMain
     ClientHeight = 420
     ClientWidth = 421
     TabOrder = 1
+    OnClick = Panel3Click
     object Label1: TLabel
       Left = 78
       Height = 15
@@ -77,41 +78,69 @@ object frmMain: TfrmMain
       ParentColor = False
     end
     object GroupBox1: TGroupBox
-      Left = 73
+      Left = 64
       Height = 52
       Top = 134
-      Width = 88
-      Caption = 'PC time'
+      Width = 144
+      Caption = 'PC Time'
       ClientHeight = 34
-      ClientWidth = 84
+      ClientWidth = 140
       TabOrder = 1
-      object lblSystemTime: TLabel
-        Left = 22
-        Height = 15
-        Top = 8
-        Width = 78
-        Alignment = taCenter
-        Caption = 'lblSystemTime'
-        ParentColor = False
+      object Panel1: TPanel
+        Left = 0
+        Height = 34
+        Top = 0
+        Width = 140
+        Align = alClient
+        AutoSize = True
+        BevelInner = bvLowered
+        Caption = 'Panel1'
+        ClientHeight = 34
+        ClientWidth = 140
+        TabOrder = 0
+        object VpLEDLabel1: TVpLEDLabel
+          Left = 2
+          Height = 30
+          Top = 2
+          Width = 136
+          Caption = 'Local'
+          Columns = 8
+          OffColor = 930866
+          OnColor = clLime
+        end
       end
     end
     object GroupBox2: TGroupBox
-      Left = 249
+      Left = 224
       Height = 52
       Top = 134
-      Width = 120
+      Width = 143
       Caption = 'RallyLog Time'
       ClientHeight = 34
-      ClientWidth = 116
+      ClientWidth = 139
       TabOrder = 2
-      object lblDeviceTime: TLabel
-        Left = 16
-        Height = 15
-        Top = 8
-        Width = 75
-        Alignment = taCenter
-        Caption = 'lblDeviceTime'
-        ParentColor = False
+      object Panel2: TPanel
+        Left = 0
+        Height = 34
+        Top = 0
+        Width = 139
+        Align = alClient
+        AutoSize = True
+        BevelInner = bvLowered
+        Caption = 'Panel2'
+        ClientHeight = 34
+        ClientWidth = 139
+        TabOrder = 0
+        object VpLEDLabel2: TVpLEDLabel
+          Left = 2
+          Height = 30
+          Top = 2
+          Width = 136
+          Caption = 'Rallylog'
+          Columns = 8
+          OffColor = 930866
+          OnColor = clLime
+        end
       end
     end
     object Chart1: TChart

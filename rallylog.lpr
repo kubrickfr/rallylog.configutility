@@ -7,8 +7,9 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, tachartlazaruspkg, pl_zeosdbocomp, mainform,
-  datamodule, clockUtility, ftd2xxdevice;
+  Forms, sdposeriallaz, tachartlazaruspkg, pl_zeosdbocomp, pl_luicontrols,
+  pl_visualplanitcomp, pl_excontrols, mainform, datamodule, clockUtility,
+  ftd2xxdevice;
 
 {$R *.res}
 
