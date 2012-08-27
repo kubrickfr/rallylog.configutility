@@ -92,9 +92,11 @@ type
 
 implementation
 
+
 ///////////////////////////////////////////////
 //   TDevice Class Implementation
 //
+{$Region 'TDevice'}
 Constructor TDevice.Create(aOwner: TComponent);
 begin
      inherited create(aOwner);
@@ -126,9 +128,13 @@ begin
      result := fEEprom.getDeviceDescriptor();
 end;
 
+{$EndRegion}
+
+
 ///////////////////////////////////////////////
 //   TPort Class Implementation
 //
+{$Region 'TPort'}
 Constructor TPort.Create(aOwner: TDevice);
 begin
      inherited create(aOwner);
@@ -145,9 +151,12 @@ procedure TPort.reset;
 begin
 end;
 
+{$EndRegion}
+
 ///////////////////////////////////////////////
 //   TDeviceDescriptor Class Implementation
 //
+{$REGION 'TDeviceDescriptor'}
  Constructor TDeviceDescriptor.Create(aOwner: TDevice);
 begin
      inherited create(aOwner);
@@ -160,9 +169,13 @@ begin
      inherited Destroy;
 end;
 
+{$EndRegion}
+
 ///////////////////////////////////////////////
 //   TEEprom Class Implementation
 //
+
+{$Region 'TEEprom'}
  Constructor TEEprom.Create(aOwner: TDevice);
 begin
      inherited create(aOwner);
@@ -179,6 +192,8 @@ end;
 begin
    //TODO
 end;
+
+ {$EndRegion}
 
 end.
 
