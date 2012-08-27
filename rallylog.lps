@@ -80,7 +80,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="10" Y="32"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\lazarus\components\Sdpo\SdpoSerial\sdposerial.pas"/>
@@ -88,7 +88,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="22"/>
         <CursorPos X="59" Y="52"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="35"/>
       </Unit7>
       <Unit8>
         <Filename Value="..\lazarus\components\Sdpo\SdpoSerial\sdposeriallaz.pas"/>
@@ -96,7 +96,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\lazarus\components\Sdpo\SdpoSerial\synafpc.pas"/>
@@ -104,7 +104,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="83"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\lazarus\components\Sdpo\SdpoSerial\synaser.pas"/>
@@ -112,7 +112,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="129"/>
         <CursorPos X="15" Y="544"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="12"/>
       </Unit10>
       <Unit11>
         <Filename Value="..\lazarus\components\Sdpo\SdpoSerial\synautil.pas"/>
@@ -120,7 +120,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="23"/>
         <CursorPos X="15" Y="1250"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="35"/>
       </Unit11>
       <Unit12>
         <Filename Value="C:\development\lazarus\lcl\lresources.pp"/>
@@ -128,7 +128,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="61" Y="21"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit12>
       <Unit13>
         <Filename Value="..\lazarus\components\opengpsx\nmeadecode.pas"/>
@@ -136,7 +136,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="346"/>
         <CursorPos X="25" Y="502"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit13>
       <Unit14>
         <Filename Value="..\lazarus\components\opengpsx\gpsportconnected.pas"/>
@@ -144,7 +144,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="5" Y="49"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="25"/>
       </Unit14>
       <Unit15>
         <Filename Value="..\lazarus\components\opengpsx\geocompute.pas"/>
@@ -152,7 +152,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="10"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="2"/>
+        <UsageCount Value="1"/>
       </Unit15>
       <Unit16>
         <Filename Value="..\lazarus\components\opengpsx\gpstarget.pas"/>
@@ -160,7 +160,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="26" Y="140"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
       </Unit16>
       <Unit17>
         <Filename Value="..\lazarus\components\opengpsx\gpsutilities.pas"/>
@@ -168,7 +168,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="13"/>
         <CursorPos X="15" Y="95"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit17>
       <Unit18>
         <Filename Value="..\lazarus\components\opengpsx\gpsdatadef.pas"/>
@@ -176,7 +176,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="4"/>
         <CursorPos X="18" Y="9"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="41"/>
       </Unit18>
       <Unit19>
         <Filename Value="..\lazarus\components\opengpsx\opengpsx.pas"/>
@@ -184,7 +184,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="2"/>
+        <UsageCount Value="1"/>
       </Unit19>
       <Unit20>
         <Filename Value="..\lazarus\components\opengpsx\savetracktogpx.pas"/>
@@ -192,7 +192,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="2"/>
+        <UsageCount Value="1"/>
       </Unit20>
       <Unit21>
         <Filename Value="..\lazarus\components\opengpsx\nmea_gpgarmin.pas"/>
@@ -200,7 +200,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="121"/>
         <CursorPos X="12" Y="146"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit21>
       <Unit22>
         <Filename Value="..\lazarus\components\opengpsx\gpssignalplot.pas"/>
@@ -208,7 +208,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
       </Unit22>
       <Unit23>
         <Filename Value="\\psf\Home\Downloads\OpenGPSProject\main.pas"/>
@@ -216,7 +216,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="139"/>
         <CursorPos X="25" Y="483"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit23>
       <Unit24>
         <Filename Value="Y:\Dropbox\1_projects\lazarus\rallylog1\main.pas"/>
@@ -224,7 +224,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="52" Y="9"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="50"/>
       </Unit24>
       <Unit25>
         <Filename Value="..\lazarus\units\d2xxunit.pas"/>
@@ -232,7 +232,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="968"/>
         <CursorPos X="94" Y="92"/>
-        <UsageCount Value="4"/>
+        <UsageCount Value="3"/>
       </Unit25>
       <Unit26>
         <Filename Value="units\d2xxunit.pas"/>
@@ -240,7 +240,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="158" Y="43"/>
-        <UsageCount Value="45"/>
+        <UsageCount Value="44"/>
       </Unit26>
       <Unit27>
         <Filename Value="units\ftchipid.pas"/>
@@ -248,7 +248,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="42" Y="14"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="12"/>
       </Unit27>
       <Unit28>
         <Filename Value="\\psf\Home\Downloads\Delphi\Main.pas"/>
@@ -256,14 +256,14 @@
         <WindowIndex Value="0"/>
         <TopLine Value="5"/>
         <CursorPos X="95" Y="55"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="12"/>
       </Unit28>
       <Unit29>
         <Filename Value="\\psf\Home\Downloads\Delphi\Main.dfm"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="4"/>
+        <UsageCount Value="3"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit29>
       <Unit30>
@@ -272,7 +272,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="21" Y="2"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="29"/>
       </Unit30>
       <Unit31>
         <Filename Value="\\psf\Home\Downloads\ManagerWorkerThreadExample-20081221\hThreads.pas"/>
@@ -280,7 +280,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="27"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit31>
       <Unit32>
         <Filename Value="\\psf\Home\Downloads\ManagerWorkerThreadExample-20081221\uThreads.pas"/>
@@ -288,7 +288,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="292"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit32>
       <Unit33>
         <Filename Value="\\psf\Home\Downloads\ManagerWorkerThreadExample-20081221\frmMain.pas"/>
@@ -296,7 +296,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="3"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit33>
       <Unit34>
         <Filename Value="..\..\lazarus\components\zeosdbo\src\plain\ZPlainLoader.pas"/>
@@ -304,7 +304,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="194"/>
         <CursorPos X="1" Y="223"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit34>
       <Unit35>
         <Filename Value="units\ftd2xx\ftd2xxport.pas"/>
@@ -312,7 +312,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="15"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="28"/>
       </Unit35>
       <Unit36>
         <Filename Value="units\ftd2xx\ftd2xxdevicedescriptor.pas"/>
@@ -320,7 +320,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="17" Y="41"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="28"/>
       </Unit36>
       <Unit37>
         <Filename Value="units\ftd2xx\ftd2xxexception.pas"/>
@@ -328,7 +328,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="5" Y="12"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="28"/>
       </Unit37>
       <Unit38>
         <Filename Value="C:\codetyphon\lazarus\lcl\include\control.inc"/>

@@ -78,7 +78,7 @@ object frmMain: TfrmMain
       ParentColor = False
     end
     object GroupBox1: TGroupBox
-      Left = 64
+      Left = 51
       Height = 52
       Top = 134
       Width = 144
@@ -111,7 +111,7 @@ object frmMain: TfrmMain
       end
     end
     object GroupBox2: TGroupBox
-      Left = 224
+      Left = 234
       Height = 52
       Top = 134
       Width = 143
